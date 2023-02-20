@@ -12,5 +12,5 @@ _NOTE: the first run of this script will always ultimately show a blank output, 
 - The 'AzureAD' module in PowerShell (this can be installed under the current user scope as required)
 
 ## Usage
-This script can be run as a scheduled task or as a powershell shortcut on startup on any windows OS with . Note that this does allow for MFA but will show a prompt for the user to enter their password manually. This only allows for MFA in the sense of it gives the user a login prompt in a webview window. This is known functionality and will not be changed in this repo
+This script can be run as a scheduled task or as a powershell shortcut on startup on any windows OS with . Note that this does allow for MFA but will show a prompt for the user to enter their password manually. This _only_ allows for MFA in the sense of it gives the user a login prompt in a webview window. This is known functionality and will not be changed in this repo
 
